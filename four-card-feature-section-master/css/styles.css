@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-container {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.text-container h1 {
+  margin: 15px 0;
+}
+
+.text-container h2 {
+  font-size: 1.8em;
+  font-weight: normal;
+}
+
+#top {
+  width: 50%;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.card {
+  width: 19rem;
+  border-radius: 5px;
+  background-color: white;
+  margin: 1rem;
+  padding: 1.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+    align-self: flex-end;
+}
+
+.card p {
+  padding: 15px 0;
+  font-weight: 200;
+}
+
+.supervisor {
+    border-top: 5px solid #45D3D3;
+}
+
+.team-builder {
+    border-top: 5px solid #EA5353;
+    margin-bottom: 2rem;
+}
+
+.karma {
+    border-top: 5px solid #FCAF4A;
+}
+
+.calculator {
+    border-top: 5px solid #549EF2;
+}
+
+@media (max-width: 1020px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
